@@ -1,0 +1,83 @@
+{
+  "source": "C:\\Users\\cokta\\Documents\\code\\hth_cgi\\northwind-dashboard\\data",
+  "base_exception_rate": 0.041,
+  "complaints_per_exception": 0.00826,
+  "estimated_read_complaint_cost": 86.66,
+  "saving_per_bad_bill": 34.72,
+  "unit_costs": {
+    "bill_correction": 34.0,
+    "field_visit": 92.0,
+    "smart_meter": 148.0,
+    "complaint_avg": 68.0,
+    "complaint_transferred": 121.0
+  },
+  "regions": {
+    "Ashford": {
+      "accounts": 412000,
+      "estimated_read_rate": 0.2063,
+      "smart_meter_penetration": 0.806,
+      "est_bills_month": 85009,
+      "exceptions_month": 3487,
+      "avg_correction_value": 145.23,
+      "systems": "SYS-02/SYS-07",
+      "legacy": false
+    },
+    "Barrowdale": {
+      "accounts": 298000,
+      "estimated_read_rate": 0.6327,
+      "smart_meter_penetration": 0.0,
+      "est_bills_month": 188535,
+      "exceptions_month": 7730,
+      "avg_correction_value": 221.63,
+      "systems": "SYS-01/SYS-06",
+      "legacy": true
+    },
+    "Calderfield": {
+      "accounts": 355000,
+      "estimated_read_rate": 0.2361,
+      "smart_meter_penetration": 0.806,
+      "est_bills_month": 83810,
+      "exceptions_month": 3436,
+      "avg_correction_value": 155.95,
+      "systems": "SYS-02/SYS-07",
+      "legacy": false
+    },
+    "Dunmoor": {
+      "accounts": 221000,
+      "estimated_read_rate": 0.5887,
+      "smart_meter_penetration": 0.0,
+      "est_bills_month": 130095,
+      "exceptions_month": 5333,
+      "avg_correction_value": 219.03,
+      "systems": "SYS-01/SYS-06",
+      "legacy": true
+    },
+    "Eastmarch": {
+      "accounts": 304000,
+      "estimated_read_rate": 0.16,
+      "smart_meter_penetration": 0.806,
+      "est_bills_month": 48640,
+      "exceptions_month": 1993,
+      "avg_correction_value": 147.06,
+      "systems": "SYS-02/SYS-07",
+      "legacy": false
+    },
+    "Fenwick": {
+      "accounts": 210000,
+      "estimated_read_rate": 0.2613,
+      "smart_meter_penetration": 0.806,
+      "est_bills_month": 54880,
+      "exceptions_month": 2250,
+      "avg_correction_value": 139.69,
+      "systems": "SYS-02/SYS-07",
+      "legacy": false
+    }
+  },
+  "assumptions": {
+    "self_read_cost": 2.0,
+    "self_read_response_rate": 0.7,
+    "hard_to_access_share": 0.015,
+    "catcher_build": 450000,
+    "catcher_run_per_year": 150000
+  }
+}
